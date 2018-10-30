@@ -9,12 +9,19 @@
         android:roundIcon="@mipmap/icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.MainActivity">
+
+        <!--配置闪屏页-->
+        <activity android:name=".activity.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        
+        <!--配置程序主页-->
+        <activity android:name=".activity.MainActivity">
+
         </activity>
     </application>
 
